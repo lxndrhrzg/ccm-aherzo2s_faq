@@ -2,7 +2,7 @@ ccm.component( {
   name: 'aherzo2s_faq',
   config: {
     html:  [ ccm.store, { local: 'templates.json' } ],
-    key:   'test',
+	key: "randomkey",
 	store: [ ccm.store, { local: 'datastore.json' } ],
     style: [ ccm.load, 'ccm-style.css' ],  // Einbindung einer CSS-Datei
     user:  [ ccm.instance, 'http://kaul.inf.h-brs.de/ccm/components/user2.js' ]
