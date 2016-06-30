@@ -1,0 +1,42 @@
+
+.ccm-aherzo2s_faq {
+	box-shadow: 3px 5px 8px black;
+	background-color: rgb(230,230,230);
+
+}
+
+.ccm-aherzo2s_faq  .faq-title {
+	font-size: 200%;
+	font-weight: bold;
+	
+}
+
+.ccm-aherzo2s_faq > .messages {
+	padding: 5px;
+}
+
+.ccm-aherzo2s_faq > .messages > .message {
+	margin: 10px;
+	padding: 5px;
+	background-color: rgb(210, 210, 210);
+	box-shadow:0px 3px 15px rgb(230,230,230) inset;
+	border-radius: 5px;
+}
+
+
+.ccm-aherzo2s_faq > .messages > .message > .name {
+	font-weight: bold;
+	margin-left: 5px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.ccm-aherzo2s_faq > .messages > .message > .name:hover {
+	text-decoration: underline;
+}
+
+
+.ccm-aherzo2s_faq > .messages > .message > .text {
+	padding: 5px;
+	margin-left: 5px;
+	display: none;
+}
