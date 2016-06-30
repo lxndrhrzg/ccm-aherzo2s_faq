@@ -1,10 +1,10 @@
 ccm.component( {
   name: 'aherzo2s_faq',
   config: {
-    html:  [ ccm.store, { local: 'templates.json' } ],
+    html:  [ ccm.store, { local: '../ccm-aherzo2s_faq/templates.json' } ],
 	key: "randomkey",
-	store: [ ccm.store, { local: 'datastore.json' } ],
-    style: [ ccm.load, 'ccm-style.css' ],  // Einbindung einer CSS-Datei
+	store: [ ccm.store, { local: '../ccm-aherzo2s_faq/datastore.json' } ],
+    style: [ ccm.load, '../ccm-aherzo2s_faq/ccm-style.css' ],  // Einbindung einer CSS-Datei
     user:  [ ccm.instance, 'http://kaul.inf.h-brs.de/ccm/components/user2.js' ]
   },
   Instance: function () {
